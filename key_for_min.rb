@@ -6,6 +6,8 @@ def key_for_min_value(name_hash)
   small_value = nil
   name_hash.eah do | key, value |
     if  small_value == nil || value < small_value
+      small_value = value
+      small_key = key
       
   
 
